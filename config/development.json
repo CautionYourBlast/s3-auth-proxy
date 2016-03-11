@@ -1,0 +1,10 @@
+{
+  "logging": {
+    "appenders": [
+      { "type": "console" }
+    ],
+    "levels": {
+      "[all]": "TRACE"
+    }
+  }
+}

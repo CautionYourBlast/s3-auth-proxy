@@ -1,0 +1,21 @@
+{
+  "logging": {
+    "appenders": [
+      { "type": "console" }
+    ],
+    "levels": {
+      "[all]": "TRACE"
+    }
+  },
+  "s3": {
+    "bucket": ""
+  },
+  "aws": {
+    "accessKeyId": "",
+    "secretAccessKey": ""
+  },
+  "authentication": {
+    "username": "user",
+    "password": "password"
+  }
+}

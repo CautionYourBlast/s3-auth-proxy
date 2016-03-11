@@ -1,0 +1,12 @@
+tests
+*.iml
+.idea
+.settings
+.DS_Store
+README.md
+*.apib
+*.postman_collection
+.jshintrc
+.gitignore
+.editorconfig
+node_modules

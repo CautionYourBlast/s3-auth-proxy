@@ -1,0 +1,33 @@
+{
+  "name": "s3-auth",
+  "description": "Fast BASIC authentication for an S3 bucket.",
+  "version": "0.1.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "node_modules/jshint/bin/jshint .",
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha --recursive tests/*",
+    "start": "node --es_staging ."
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.42",
+    "basic-auth": "^1.0.3",
+    "body-parser": "^1.13.2",
+    "co": "^4.6.0",
+    "config": "^1.14.0",
+    "express": "^4.13.0",
+    "log4js": "^0.6.26",
+    "request-promise": "^1.0.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "jshint": "^2.5.6",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.8.0",
+    "supertest": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CautionYourBlast/s3-auth-proxy.git"
+  }
+}

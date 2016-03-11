@@ -1,0 +1,13 @@
+{
+  "s3": {
+    "bucket": "S3_BUCKET"
+  },
+  "aws": {
+    "accessKeyId": "AWS_ACCESS_KEY",
+    "secretAccessKey": "AWS_SECRET_KEY"
+  },
+  "authentication": {
+    "username": "USERNAME",
+    "password": "PASSWORD"
+  }
+}
