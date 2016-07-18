@@ -6,7 +6,15 @@ const config = require('config');
 const log4js = require('log4js');
 
 const logger = log4js.getLogger('routes/proxy');
-const s3 = new aws.S3(config.get('aws'));
+
+let s3;
+
+if (config.get('aws.awsAccessKey') !== '') {
+  s3 = new aws.S3(config.get('aws'));
+} else {
+  s3 = new aws.S3();
+}
+
 
 module.exports = function configureRoutes(router) {
 
